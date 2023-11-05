@@ -1,0 +1,13 @@
+/* Ensure the body takes up the full height of the viewport */
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Push the footer to the bottom of the page */
+footer {
+  margin-top: auto;
+}
+

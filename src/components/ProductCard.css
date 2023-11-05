@@ -1,0 +1,15 @@
+.card {
+
+    background-color: beige;
+
+
+}
+
+/* ProductCard.css or your main CSS file */
+.card-img-top {
+    width: 100%; /* Set the width to your desired fixed card width */
+    height: 100px; /* Set the height to your desired fixed card height */
+
+  }
+  
+  
