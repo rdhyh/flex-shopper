@@ -15,7 +15,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   price,
 }) => {
   return (
-    <div className="card mb-4">
+    <div className="card mb-4 custom-card">
       <img src={image_url} className="card-img-top" alt={name} />
       <div className="card-body">
         <h5 className="card-title">{name}</h5>

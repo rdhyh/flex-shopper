@@ -5,6 +5,13 @@
 
 }
 
+
+.custom-card { 
+
+    height: 260px;
+
+}
+
 /* ProductCard.css or your main CSS file */
 .card-img-top {
     width: 100%; /* Set the width to your desired fixed card width */
