@@ -45,15 +45,15 @@ const Categories: React.FC = () => {
       <div className="row">
         <div className="column-md-4">
           <h2>Woman Category</h2>
-          <ProductList products={womanProducts} />
+          <ProductList products={womanProducts} isHome={false} />
         </div>
         <div className="column-md-4">
           <h2>Man Category</h2>
-          <ProductList products={manProducts} />
+          <ProductList products={manProducts} isHome={false} />
         </div>
-        <div className="column-md-4">
+        <div className="column-md-4 ">
           <h2>Mixed Category</h2>
-          <ProductList products={mixedProducts} />
+          <ProductList products={mixedProducts} isHome={false} />
         </div>
       </div>
     </main>

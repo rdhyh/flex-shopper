@@ -36,18 +36,18 @@ const Home: React.FC = () => {
 
   return (
     <main className="container my-4 custom-home">
-      <div className="row">
-        <div className="col-md-4" style={column1Styles}>
+      <div className="row custom-row">
+        <div className="col-md-3" style={column1Styles}>
           <section className="mb-4"></section>
         </div>
         <div className="col-md-4 custom-column">
           <section className="mb-4">
             <h2>Featured Products</h2>
-            <ProductList products={limitedProducts} />{" "}
+            <ProductList products={limitedProducts} isHome={true} />{" "}
             {/* Use the sliced products data */}
           </section>
         </div>
-        <div className="col-md-4" style={column1Styles2}>
+        <div className="col-md-3" style={column1Styles2}>
           <section className="mb-4"></section>
         </div>
       </div>

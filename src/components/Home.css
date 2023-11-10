@@ -1,7 +1,15 @@
-.custom-body {
+.custom-home {
 
     background-color: blanchedalmond;
+    justify-content: center;
+    
 
+
+}
+
+.custom-row {
+
+    justify-content: center;
 
 }
 

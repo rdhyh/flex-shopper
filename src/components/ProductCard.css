@@ -18,5 +18,21 @@
     height: 100px; /* Set the height to your desired fixed card height */
 
   }
+
+ /* ProductCard.css */
+.home-product-card .card-img-top{
+    /* Define styles for Home product cards */
+    width: 100%; /* Set the width to your desired fixed card width */
+    height: 100px; /* Set the height to your desired fixed card height */
+
+  }
+  
+.category-product-card .card-img-top{
+    /* Define styles for category product cards */
+    width: 100%; /* Set the width to your desired fixed card width */
+    height: 220px; /* Set the height to your desired fixed card height */
+
+  }
+   
   
   

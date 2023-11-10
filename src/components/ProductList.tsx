@@ -12,13 +12,23 @@ interface ProductListProps {
   products: Product[];
 }
 
-const ProductList: React.FC<ProductListProps> = ({ products }) => {
+interface ProductListProps {
+  products: Product[];
+  isHome: boolean; // Add the isHome prop
+}
+
+const ProductList: React.FC<ProductListProps> = ({ products, isHome }) => {
   return (
     <div className="row">
       {products.map((product) => (
-        <div className="col-md-4 mb-4" key={product.id}>
+        <div
+          className={`col-md-4 mb-4 ${
+            isHome ? "home-product-card" : "category-product-card"
+          }`}
+          key={product.id}
+        >
           <ProductCard
-            image_url={product.image_url} // Corrected from product.image_url
+            image_url={product.image_url}
             name={product.name}
             price={product.price}
           />
