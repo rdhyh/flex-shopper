@@ -40,9 +40,11 @@ const Header: React.FC = () => {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#products">
+                    <Link to="/products" className="nav-link">
+                      {" "}
+                      {/* Link to the "Categories" page */}
                       Products
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#contact">

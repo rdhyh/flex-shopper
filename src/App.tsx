@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home";
 import Categories from "./components/Categories"; // Import the Categories component
 import Footer from "./components/Footer";
+import Products from "./components/Products";
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/categories" element={<Categories />} />
             <Route path="/" element={<Home />} />
+            <Route path="/products" element={<Products />} />
           </Routes>
           <Footer />
         </main>
